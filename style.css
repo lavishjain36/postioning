@@ -1,0 +1,52 @@
+p{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+div{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: rgb(246, 76, 238);
+  border: 3px solid black;
+  width: 350px;
+  text-align: center;
+  box-shadow: 5px 5px 20px rgb(183, 255, 58);
+  border-radius:20px;
+  padding:20px;
+  margin:20px;
+}
+
+/* .static{
+  position: static;
+  left:600px;
+}
+
+.relative{
+  position:relative;
+  left:500px;
+   top:100p;
+  
+}
+.fixed{
+  position:fixed;
+  top:0px;
+  right:0px;
+}
+.ancestor{
+  width:500px;
+  height:400px;
+  position:relative;
+  left:400px;
+  top:200px;
+}
+
+.absolute{
+  position:absolute;
+  left:600px;
+  top:200px;
+} */
+
+
+.sticky{
+  position:sticky;
+  top:100px;
+}
